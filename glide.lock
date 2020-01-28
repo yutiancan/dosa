@@ -1,5 +1,5 @@
-hash: a5a44ea2a194e7536f7044aeda7f811b7cab27dac6c7a4de365e21f13d90fccf
-updated: 2020-01-17T14:37:21.351065-08:00
+hash: 3b801d7d0615dcf97c0ddfde028dcdaa0a35976f8e10d9d435bb0cd636968f55
+updated: 2020-01-28T13:25:15.400244-08:00
 imports:
 - name: github.com/anmitsu/go-shlex
   version: 648efa622239a2f6ff949fed78ee37b48d499ba4
@@ -95,17 +95,17 @@ imports:
   - prometheus/internal
   - prometheus/promhttp
 - name: github.com/prometheus/client_model
-  version: d1d2010b5beead3fa1c5f271a5cf626e40b3ad6e
+  version: 7bc5445566f0fe75b15de23e6b93886e982d7bf9
   subpackages:
   - go
 - name: github.com/prometheus/common
-  version: 629b6ff9b3aafafba54ab96663903fde9544f037
+  version: d978bcb1309602d68bb4ba69cf3f8ed900e07308
   subpackages:
   - expfmt
   - internal/bitbucket.org/ww/goautoneg
   - model
 - name: github.com/prometheus/procfs
-  version: 436b8d67311d20a1554856a974008796024691cb
+  version: 496ec92a4c3ca16a9902b10e44fc80628ed72745
   subpackages:
   - internal/fs
   - internal/util
@@ -141,13 +141,13 @@ imports:
 - name: go.uber.org/multierr
   version: 0603dab38513015f56e2fc4ae9cf278664de80ea
 - name: go.uber.org/net/metrics
-  version: 05a053b545cba614bf12635803f4749dab7bd0d0
+  version: 1b0dba5372807d15069c48adcf7d2ee974d3aa40
   subpackages:
   - bucket
   - push
   - tallypush
 - name: go.uber.org/thriftrw
-  version: b762dca4b84a285fe198edfac0ab194615ccbf9d
+  version: a5a94bffd4432355f3f5c9c764980d77fab3cfb6
   subpackages:
   - ast
   - compile
@@ -245,7 +245,7 @@ imports:
   - ipv6
   - trace
 - name: golang.org/x/sys
-  version: 59e60aa80a0c64fa4b088976ee16ad7f04252c25
+  version: 9fbb57f87de9ccfe3a99d4e3270ce8a926ebba4f
   repo: https://github.com/golang/sys
   subpackages:
   - unix
@@ -258,7 +258,7 @@ imports:
   - unicode/bidi
   - unicode/norm
 - name: golang.org/x/tools
-  version: 1486df0b25589885baa57479b10c95a201027acf
+  version: 345141a368593509252933bd1e146558314b6d0c
   repo: https://github.com/golang/tools
   subpackages:
   - cmd/goimports
@@ -284,7 +284,7 @@ imports:
   - internal/packagesinternal
   - internal/semver
 - name: google.golang.org/genproto
-  version: 32f20d992d240fbca6ef7dec6c05d1f024314e02
+  version: 58ce757ed39bbbe3bf3960b90ded218031b35389
   subpackages:
   - googleapis/rpc/status
 - name: google.golang.org/grpc
@@ -328,7 +328,7 @@ imports:
 - name: gopkg.in/yaml.v2
   version: 1f64d6156d11335c3f22d9330b0ad14fc1e789ce
 - name: honnef.co/go/tools
-  version: 717cd7a0595327ea87bc8016753ce6e0ac546200
+  version: 2774002210e8cbf35b5445a3805e6f173c6bec1f
   subpackages:
   - arg
   - cmd/staticcheck
