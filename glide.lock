@@ -1,5 +1,5 @@
-hash: 3b801d7d0615dcf97c0ddfde028dcdaa0a35976f8e10d9d435bb0cd636968f55
-updated: 2020-01-28T13:25:15.400244-08:00
+hash: ab9698437fad4498b99a7606e33956535dc42266196a1ce05b57b892025b837e
+updated: 2020-01-28T16:11:39.186621-08:00
 imports:
 - name: github.com/anmitsu/go-shlex
   version: 648efa622239a2f6ff949fed78ee37b48d499ba4
@@ -58,7 +58,7 @@ imports:
 - name: github.com/gogo/status
   version: 935308aef7372e7685e8fbee162aae8f7a7e515a
 - name: github.com/golang/mock
-  version: 9fa652df1129bef0e734c9cf9bf6dbae9ef3b9fa
+  version: 3dcdcb6994c4de42a73bd2e4790178be3ed4554b
   subpackages:
   - gomock
   - mockgen
@@ -258,7 +258,7 @@ imports:
   - unicode/bidi
   - unicode/norm
 - name: golang.org/x/tools
-  version: 345141a368593509252933bd1e146558314b6d0c
+  version: 520188d60f5082c80be05bfde8f4681614a6a418
   repo: https://github.com/golang/tools
   subpackages:
   - cmd/goimports
@@ -288,7 +288,7 @@ imports:
   subpackages:
   - googleapis/rpc/status
 - name: google.golang.org/grpc
-  version: f5b0812e6fe574d90da76b205e9eb51f6ddb1919
+  version: a89bee78ddf0f67f27c06b1b2b1b071c18408724
   subpackages:
   - attributes
   - backoff
@@ -326,7 +326,7 @@ imports:
   - status
   - tap
 - name: gopkg.in/yaml.v2
-  version: 1f64d6156d11335c3f22d9330b0ad14fc1e789ce
+  version: 53403b58ad1b561927d19068c655246f2db79d48
 - name: honnef.co/go/tools
   version: 2774002210e8cbf35b5445a3805e6f173c6bec1f
   subpackages:
